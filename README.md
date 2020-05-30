@@ -11,3 +11,6 @@ It works by;
 - 4 specific sequential chunks of data are looked for during the while loop which signify the start of a JPEG file, when found the data is written to a new file until a new JPEG is found.
 - As the JPEGs are back to back, once the first is open the next time the 4 bytes signifying JPEG file are found the current image is closed and a new image is written.
 - On the end of the file all memory used is free'd.
+
+
+*Note* the card.raw file has been omitted due to its size.
